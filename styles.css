@@ -37,7 +37,7 @@ header>nav {
 }
 header>nav ul {
     display: flex;
-    justify-content:space-around;
+    justify-content:flex-start;
     flex-basis: 600px;
     margin:20px;
 }
@@ -70,7 +70,6 @@ header>button a {
 }
 section {
     min-height:80vh;
-    border-bottom: 4px dotted var(--bocapink);
     background-color: var(--bocawhite);
     display: flex;
     flex-wrap: wrap;
