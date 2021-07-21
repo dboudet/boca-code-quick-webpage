@@ -18,6 +18,7 @@
                 <li class="menu-item active"><a href="">Home</a></li>
                 <li class="menu-item"><a href="#about">About</a></li>
                 <li class="menu-item"><a href="#articles">Articles</a></li>
+                <li class="menu-item"><a href="#customers">Customers</a></li>
                 <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -46,31 +47,36 @@
         <a name="articles"></a>
         <section id="articles">
             <h2 class="full-width">Articles</h2>
-                <article class="half" id="art1">
-                    <h3>This is a Featured Article Headline</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus voluptates cupiditate iusto et blanditiis asperiores fugiat veniam a fugit natus rem animi totam, temporibus ab nostrum quia pariatur rerum!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus voluptates cupiditate iusto et blanditiis asperiores fugiat veniam a fugit natus rem animi totam, temporibus ab nostrum quia pariatur rerum!</p>
-                </article>
-                <article class="half" id="art2">
-                    <h3>This is Another Article Headline</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta accusamus adipisci vero ex voluptatem ipsum nobis odio nesciunt placeat quo expedita, reprehenderit quae aspernatur fuga, corporis illum repellendus fugiat?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta accusamus adipisci vero ex voluptatem ipsum nobis odio nesciunt placeat quo expedita, reprehenderit quae aspernatur fuga, corporis illum repellendus fugiat?</p>
-                </article>
+            <article class="half" id="art1">
+                <h3>This is a Featured Article Headline</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus voluptates cupiditate iusto et blanditiis asperiores fugiat veniam a fugit natus rem animi totam, temporibus ab nostrum quia pariatur rerum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus voluptates cupiditate iusto et blanditiis asperiores fugiat veniam a fugit natus rem animi totam, temporibus ab nostrum quia pariatur rerum!</p>
+            </article>
+            <article class="half" id="art2">
+                <h3>This is Another Article Headline</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta accusamus adipisci vero ex voluptatem ipsum nobis odio nesciunt placeat quo expedita, reprehenderit quae aspernatur fuga, corporis illum repellendus fugiat?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta accusamus adipisci vero ex voluptatem ipsum nobis odio nesciunt placeat quo expedita, reprehenderit quae aspernatur fuga, corporis illum repellendus fugiat?</p>
+            </article>
+        </section>
+        <a name="customers"></a>
+        <section id="customers">
+            <h2>Customers</h2>
+            <h3>Loading...</h3>
         </section>
         <a name="contact"></a>
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2>Add Customer Form</h2>
             <form onsubmit="handleSubmit(event)">
-                <label for="name">Name:
-                    <input type="text" onchange="handleNameChange(event)" name="Your Name">
+                <label for="firstName">First Name:
+                    <input type="text" name="firstName">
+                </label><br>
+                <label for="lastName">Last Name:
+                    <input type="text" name="lastName">
                 </label><br>
                 <label for="email">Email:
                     <input type="email" name="email">
                 </label><br>
-                <label for="message">Message:
-                    <textarea name="message" cols="20" rows="6">Pre-filled text</textarea>
-                </label><br>
-                <input type="submit" value="Send Message">
+                <input type="submit" value="Save">
             </form>
         </section>
     </main>
